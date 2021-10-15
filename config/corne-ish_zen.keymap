@@ -14,60 +14,60 @@
 #define SYMBOL 2
 #define FUNC   3
 
-/ {
-    combos {
-        compatible = "zmk,combos";
+; / {
+;     combos {
+;         compatible = "zmk,combos";
 
-        combo_bt_clr {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <24 36 37>;
-            bindings = <&bt CLR>;
-        };
+;         combo_bt_clr {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <24 36 37>;
+;             bindings = <&bt CLR>;
+;         };
 
-        combo_bt_a {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <25 36 37>;
-            bindings = <&bt BT_SEL 0>;
-        };
+;         combo_bt_a {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <25 36 37>;
+;             bindings = <&bt BT_SEL 0>;
+;         };
 
-        combo_bt_b {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <26 36 37>;
-            bindings = <&bt BT_SEL 1>;
-        };
+;         combo_bt_b {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <26 36 37>;
+;             bindings = <&bt BT_SEL 1>;
+;         };
 
-        combo_bt_c {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <27 36 37>;
-            bindings = <&bt BT_SEL 2>;
-        };
+;         combo_bt_c {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <27 36 37>;
+;             bindings = <&bt BT_SEL 2>;
+;         };
 
-        combo_bt_d {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <28 36 37>;
-            bindings = <&bt BT_SEL 3>;
-        };
+;         combo_bt_d {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <28 36 37>;
+;             bindings = <&bt BT_SEL 3>;
+;         };
 
-        combo_bt_e {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <29 36 37>;
-            bindings = <&bt BT_SEL 4>;
-        };
+;         combo_bt_e {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <29 36 37>;
+;             bindings = <&bt BT_SEL 4>;
+;         };
 
-        combo_reset {
-            timeout-ms = <50>;
-            layers = <1>;
-            key-positions = <30 36 37>;
-            bindings = <&reset>;
-        };
-    };
-};
+;         combo_reset {
+;             timeout-ms = <50>;
+;             layers = <1>;
+;             key-positions = <30 36 37>;
+;             bindings = <&reset>;
+;         };
+;     };
+; };
 
 
 / {
