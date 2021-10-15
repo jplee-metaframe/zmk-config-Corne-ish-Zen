@@ -3,7 +3,6 @@
 * Copyright (c) 2021 lowprokb.ca
 * SPDX-License-Identifier: MIT
 *
-* vi: ft=dts
 */
 
 #include <behaviors.dtsi>
@@ -23,13 +22,11 @@
 #define XXX   &none
 #define ___   &trans
 
+
 / {
     combos {
         #include "combos.dtsi"
     };
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -103,3 +100,4 @@
         };
     };
 };
+/* vim: set filetype=dts */
