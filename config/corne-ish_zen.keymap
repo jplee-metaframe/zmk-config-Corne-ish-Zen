@@ -1,5 +1,5 @@
 /*
-*
+* vi: ft=c
 * Copyright (c) 2021 lowprokb.ca
 * SPDX-License-Identifier: MIT
 *
@@ -25,35 +25,35 @@
             bindings = <&bt CLR>;
         };
 
-        combo_bt_1 {
+        combo_bt_a {
             timeout-ms = <50>;
             layers = <1>;
             key-positions = <25 36 37>;
             bindings = <&bt BT_SEL 0>;
         };
 
-        combo_bt_2 {
+        combo_bt_b {
             timeout-ms = <50>;
             layers = <1>;
             key-positions = <26 36 37>;
             bindings = <&bt BT_SEL 1>;
         };
 
-        combo_bt_3 {
+        combo_bt_c {
             timeout-ms = <50>;
             layers = <1>;
             key-positions = <27 36 37>;
             bindings = <&bt BT_SEL 2>;
         };
 
-        combo_bt_4 {
+        combo_bt_d {
             timeout-ms = <50>;
             layers = <1>;
             key-positions = <28 36 37>;
             bindings = <&bt BT_SEL 3>;
         };
 
-        combo_bt_5 {
+        combo_bt_e {
             timeout-ms = <50>;
             layers = <1>;
             key-positions = <29 36 37>;
