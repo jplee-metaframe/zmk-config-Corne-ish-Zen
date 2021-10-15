@@ -16,9 +16,9 @@
 
 compatible = "zmk,combos";
 
-COMBO(bt_clr, &bt CLR, 24 36 37, NUMBER)
-COMBO(bt_a, &bt BT_SEL 0, 25 36 37, NUMBER)
-COMBO(bt_b, &bt BT_SEL 1, 26 36 37, NUMBER)
-COMBO(bt_c, &bt BT_SEL 2, 27 36 37, NUMBER)
-COMBO(bt_d, &bt BT_SEL 3, 28 36 37, NUMBER)
-COMBO(reset, &reset, 29 36 37, NUMBER)
+COMBO(bt_clr, &bt CLR,      24 36 37, NUMBER)
+/* COMBO(bt_a,   &bt BT_SEL 0, 25 36 37, NUMBER) */
+/* COMBO(bt_b,   &bt BT_SEL 1, 26 36 37, NUMBER) */
+/* COMBO(bt_c,   &bt BT_SEL 2, 27 36 37, NUMBER) */
+/* COMBO(bt_d,   &bt BT_SEL 3, 28 36 37, NUMBER) */
+COMBO(reset,  &reset,       29 36 37, NUMBER)
